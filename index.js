@@ -5,6 +5,7 @@ const history = require('connect-history-api-fallback');
 const path = require("path");
 const fs = require("fs");
 const sFavicon = require("serve-favicon");
+
 require("./src/data/dataAcces");
 
 const validation = require("./CrossCuttingConcerns/Auth/clientValidation.js");
